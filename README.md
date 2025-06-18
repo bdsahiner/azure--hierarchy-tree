@@ -1,13 +1,13 @@
-Azure Platform / Global Infrastructure
+**Azure Platform / Global Infrastructure**
   │
-  ├─ Azure Regions
-  │    └─ Availability Zones
+  ├─ **Azure Regions**
+  │    └─ **Availability Zones**
   │
-  └─ Azure Account / Enrollment
+  └─ **Azure Account / Enrollment**
        │
-       └─ Microsoft Entra ID Tenant
+       └─ **Microsoft Entra ID Tenant**
             │
-            ├─ Identities & Access Components:
+            ├─ **Identities & Access Components:**
             │    ├─ Users
             │    ├─ Groups
             │    │    ├─ Security Groups
@@ -29,27 +29,27 @@ Azure Platform / Global Infrastructure
             │    ├─ Microsoft Entra multifactor authentication (MFA)
             │    └─ Azure AD Identity Protection
             │
-            └─ Tenant Root Group
+            └─ **Tenant Root Group**
                  │
-                 ├─ Management Group
+                 ├─ **Management Group**
                  │    ├─ Azure Policy
                  │    ├─ Azure Blueprints
                  │    └─ Azure Resource Locks
                  │
-                 └─ Management Group
+                 └─ **Management Group**
                       │
-                      └─ Subscription
+                      └─ **Subscription**
                            ├─ Azure Policy
                            ├─ Azure Blueprints
                            ├─ Azure Resource Manager (ARM)
                            └─ Azure Resource Locks
                            │
-                           └─ Resource Group
+                           └─ **Resource Group**
                                 ├─ Azure Policy
                                 ├─ Azure Blueprints
                                 ├─ Azure Resource Locks
                                 ├─ Azure Tags
-                                ├─ Compute Resources:
+                                ├─ **Compute Resources:**
                                 │    ├─ Virtual Machine (VM)
                                 │    │    ├─ Availability Set
                                 │    │    ├─ Network Interface Card (NIC)
@@ -70,29 +70,29 @@ Azure Platform / Global Infrastructure
                                 │         ├─ Azure Container Registry Tasks
                                 │         └─ Azure Container Registry Content Trust
                                 │
-                                ├─ Storage Resources:
+                                ├─ **Storage Resources:**
                                 │    ├─ Azure Storage Platform
                                 │    │    └─ Azure Storage Account
-                                │    │         ├─ Types of Storage Accounts:
+                                │    │         ├─ **Types of Storage Accounts:**
                                 │    │         │    ├─ Standard general-purpose v2
                                 │    │         │    ├─ Standard general-purpose v1
                                 │    │         │    ├─ Blob Storage (account type)
                                 │    │         │    ├─ Premium block blobs
                                 │    │         │    ├─ Premium file shares
                                 │    │         │    └─ Premium page blobs
-                                │    │         ├─ Redundancy Options:
+                                │    │         ├─ **Redundancy Options:**
                                 │    │         │    ├─ Locally redundant storage (LRS)
                                 │    │         │    ├─ Geo-redundant storage (GRS)
                                 │    │         │    ├─ Read-access geo-redundant storage (RA-GRS)
                                 │    │         │    ├─ Zone-redundant storage (ZRS)
                                 │    │         │    ├─ Geo-zone-redundant storage (GZRS)
                                 │    │         │    └─ Read-access geo-zone-redundant storage (RA-GZRS)
-                                │    │         ├─ Secure Access to Storage Accounts:
+                                │    │         ├─ **Secure Access to Storage Accounts:**
                                 │    │         │    ├─ Microsoft Entra integration
                                 │    │         │    ├─ Identity-based authentication over SMB for Azure Files
                                 │    │         │    ├─ Authorization with Shared Key
                                 │    │         │    └─ Authorization using Shared Access Signatures (SAS)
-                                │    │         ├─ Encryption:
+                                │    │         ├─ **Encryption:**
                                 │    │         │    ├─ Encryption at rest
                                 │    │         │    │    └─ Customer-managed keys
                                 │    │         │    └─ Client-side encryption
@@ -136,7 +136,7 @@ Azure Platform / Global Infrastructure
                                 │    └─ Data Transfer Options
                                 │         └─ Azure Import/Export Service Job
                                 │
-                                ├─ Networking Resources:
+                                ├─ **Networking Resources:**
                                 │    ├─ Azure Virtual Network
                                 │    │    ├─ Subnet
                                 │    │    ├─ VNet Peering
@@ -177,7 +177,8 @@ Azure Platform / Global Infrastructure
                                 │    │    └─ Site-to-site VPN connection
                                 │    ├─ Routing preference
                                 │    ├─ Azure CDN
-                                │    ├─ Azure Front Door   
+                                │    ├─ Azure Front Door
+                                │    │    └─ Attributes
                                 │    ├─ Azure Application Gateway
                                 │    ├─ Azure Web Application Firewall (WAF)
                                 │    ├─ Azure DNS
@@ -189,29 +190,29 @@ Azure Platform / Global Infrastructure
                                 │    ├─ Public IP Address
                                 │    └─ Network Security Group (NSG)
                                 │
-                                ├─ Database Resources:
+                                ├─ **Database Resources:**
                                 │    ├─ Azure SQL Database
                                 │    ├─ Azure Database for PostgreSQL/MySQL/MariaDB
                                 │    ├─ Azure Cosmos DB
                                 │    └─ Azure Cache for Redis
                                 │
-                                ├─ Messaging & Integration Resources:
+                                ├─ **Messaging & Integration Resources:**
                                 │    ├─ Azure Service Bus
                                 │    └─ Azure Event Grid
                                 │
-                                ├─ Analytics & AI/ML Resources:
+                                ├─ **Analytics & AI/ML Resources:**
                                 │    ├─ Azure Synapse Analytics
                                 │    │    └─ Custom detection logic using Azure Synapse Analytics
                                 │    ├─ Azure Data Factory
                                 │    ├─ Univariate Anomaly Detection
                                 │    └─ Multivariate Anomaly Detection
                                 │
-                                ├─ Security & Governance Resources:
+                                ├─ **Security & Governance Resources:**
                                 │    ├─ Microsoft Entra Domain Services (Azure AD DS)
                                 │    ├─ Azure Key Vault
                                 │    └─ Azure Defender for Cloud
                                 │
-                                ├─ Monitoring & Management Resources:
+                                ├─ **Monitoring & Management Resources:**
                                 │    ├─ Log Analytics Workspace
                                 │    │    └─ Log Analytics in Azure Monitor
                                 │    ├─ Alert rules
@@ -226,7 +227,7 @@ Azure Platform / Global Infrastructure
                                 │    ├─ IT Service Management Connector (ITSMC)
                                 │    └─ Azure Migrate Project
                                 │
-                                └─ Other Common Resources:
+                                └─ **Other Common Resources:**
                                      ├─ Azure Functions App
                                      └─ Azure Event Hubs
                                      │
